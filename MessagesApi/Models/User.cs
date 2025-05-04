@@ -1,15 +1,7 @@
 ﻿namespace MessagesApi.Models
 {
-    public class User
+    public class User : UserModel
     {
         public Guid Id { get; set; }
-        public string Name { get; set; }
-        public void Validate()
-        {
-            if (string.IsNullOrEmpty(Name))
-            {
-                throw new ArgumentNullException(nameof(Name));
-            }
-        }
     }
 }

@@ -35,7 +35,7 @@ namespace MessagesApi.Apis
         }
 
         [HttpPost]
-        public async Task<IActionResult> PostAsync(User user)
+        public async Task<IActionResult> PostAsync(UserModel user)
         {
             user.Validate();
             user = await _userService.CreateUserAsync(user).ConfigureAwait(false);
