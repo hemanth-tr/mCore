@@ -9,7 +9,7 @@ namespace MessagesApi.Middlewares
         {
             httpContext.Response.StatusCode = 500;
             await httpContext.Response.WriteAsync(new { Error = exception.Message }.ToString());
-            return true; // Indicate that the exception was handled
+            return true;
         }
     }
 }

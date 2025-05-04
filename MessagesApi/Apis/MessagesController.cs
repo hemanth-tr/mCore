@@ -1,6 +1,5 @@
 ﻿using MessagesApi.Models;
 using MessagesApi.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MessagesApi.Apis

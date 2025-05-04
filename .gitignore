@@ -56,3 +56,6 @@ nunit-*.xml
 
 # VS Code
 .vs
+
+# Idea Rider
+.idea
